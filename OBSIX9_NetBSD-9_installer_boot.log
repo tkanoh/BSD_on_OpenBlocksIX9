@@ -1,0 +1,639 @@
+Status Code Available
+DXE Status Code Available
+ 989D9CB4B4B4B492A0A29992A099A099Version 2.17.1249. Copyright (C) 2020 American Megatrends, Inc.                 BIOS Date: 01/30/2020 15:34:11 Ver: 3ACOS004                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Press <DEL> or <ESC> to enter setup. mem[0x0-0x7fff 0x8000-0x3efff 0x40000-0x9ffff 0x100000-0x1effffff 0x1f100000-0x1fffffff 0x20100000-0x59ffffff 0x5a000000-0x5a01ffff 0x5a020000-0x6e1ccfff 0x6e1cd000-0x762d1fff 0x762d2000-0x7630dfff 0x7630e000-0x78b69fff 0x78b6a000-0x78eb5fff 0x78eb6000-0x79169fff 0x7919a000-0x792b4fff 0x79a22000-0x79bcbfff 0x79ffa000-0x79ffffff 0x100000000-0x27fffffff]
+Welcome to the NetBSD/amd64 9.0 installation image
+===============================================================================
+
+If you encounter a problem while booting, report a bug at
+https://www.NetBSD.org/.
+
+     1. Install NetBSD
+     2. Drop to boot prompt
+
+Choose an option; RETURN for default; SPACE to stop countdown.
+Option 1 will be chosen in 30 seconds. 29 seconds. 0 seconds.     
+type "?" or "help" for help.
+> consdev com0
+E 
+> load /miniroot.kmod
+> boot
+command(s): boot netbsd
+|/-\|/18618424-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/+667072-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\+1430080|/-\ [888560|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\+1246344|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|+889760/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\]=0x16e30c0
+|/-\|/-\|/-\|/-\|/WARNING: couldn't open /miniroot.kmod
+WARNING: 1 module failed to load
+[   1.0000000] Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+[   1.0000000]     2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+[   1.0000000]     2018, 2019, 2020 The NetBSD Foundation, Inc.  All rights reserved.
+[   1.0000000] Copyright (c) 1982, 1986, 1989, 1991, 1993
+[   1.0000000]     The Regents of the University of California.  All rights reserved.
+
+[   1.0000000] NetBSD 9.0 (GENERIC) #0: Fri Feb 14 00:06:28 UTC 2020
+[   1.0000000] 	mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/amd64/compile/GENERIC
+[   1.0000000] total memory = 8081 MB
+[   1.0000000] avail memory = 7823 MB
+[   1.0000000] cpu_rng: RDRAND
+[   1.0000000] running cgd selftest aes-xts-256 aes-xts-512 done
+[   1.0000000] RTC BIOS diagnostic error 0xf<fixed_disk,invalid_time>
+[   1.0000030] efi: systbl at pa 79987f18
+[   1.0000030] mainbus0 (root)
+[   1.0000030] ACPI: RSDP 0x000000007964B000 000024 (v02 ALASKA)
+[   1.0000030] ACPI: XSDT 0x000000007964B088 00008C (v01 ALASKA A M I    01072009 AMI  00010013)
+[   1.0000030] ACPI: FACP 0x00000000796562A0 00010C (v05 ALASKA A M I    01072009 AMI  00010013)
+[   1.0000030] ACPI: DSDT 0x000000007964B1A8 00B0F1 (v02 ALASKA A M I    01072009 INTL 20120913)
+[   1.0000030] ACPI: FACS 0x00000000796F7F80 000040
+[   1.0000030] ACPI: APIC 0x00000000796563B0 000084 (v03 ALASKA A M I    01072009 AMI  00010013)
+[   1.0000030] ACPI: FPDT 0x0000000079656438 000044 (v01 ALASKA A M I    01072009 AMI  00010013)
+[   1.0000030] ACPI: FIDT 0x0000000079656480 00009C (v01 ALASKA A M I    01072009 AMI  00010013)
+[   1.0000030] ACPI: LPIT 0x0000000079656520 000104 (v01 ALASKA A M I    00000003 VLV2 0100000D)
+[   1.0000030] ACPI: MCFG 0x0000000079656628 00003C (v01 ALASKA A M I    01072009 MSFT 00000097)
+[   1.0000030] ACPI: HPET 0x0000000079656668 000038 (v01 ALASKA A M I    01072009 AMI. 00000005)
+[   1.0000030] ACPI: SSDT 0x00000000796566A0 000763 (v01 PmRef  CpuPm    00003000 INTL 20061109)
+[   1.0000030] ACPI: SSDT 0x0000000079656E08 000290 (v01 PmRef  Cpu0Tst  00003000 INTL 20061109)
+[   1.0000030] ACPI: SSDT 0x0000000079657098 00017A (v01 PmRef  ApTst    00003000 INTL 20061109)
+[   1.0000030] ACPI: UEFI 0x0000000079657218 000042 (v01 ALASKA A M I    00000000      00000000)
+[   1.0000030] ACPI: CSRT 0x0000000079657260 00014C (v00 INTEL  EDK2     00000005 INTL 20120624)
+[   1.0000030] ACPI: TPM2 0x00000000796573B0 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+[   1.0000030] ACPI: 4 ACPI AML tables successfully acquired and loaded
+[   1.0000030] ioapic0 at mainbus0 apid 1
+[   1.0000030] cpu0 at mainbus0 apid 0
+[   1.0000030] cpu0: Intel(R) Atom(TM) CPU  E3845  @ 1.91GHz, id 0x30679
+[   1.0000030] cpu0: package 0, core 0, smt 0
+[   1.0000030] cpu1 at mainbus0 apid 2
+[   1.0000030] cpu1: Intel(R) Atom(TM) CPU  E3845  @ 1.91GHz, id 0x30679
+[   1.0000030] cpu1: package 0, core 1, smt 0
+[   1.0000030] cpu2 at mainbus0 apid 4
+[   1.0000030] cpu2: Intel(R) Atom(TM) CPU  E3845  @ 1.91GHz, id 0x30679
+[   1.0000030] cpu2: package 0, core 2, smt 0
+[   1.0000030] cpu3 at mainbus0 apid 6
+[   1.0000030] cpu3: Intel(R) Atom(TM) CPU  E3845  @ 1.91GHz, id 0x30679
+[   1.0000030] cpu3: package 0, core 3, smt 0
+[   1.0000030] acpi0 at mainbus0: Intel ACPICA 20190405
+[   1.0000030] ACPI: Dynamic OEM Table Load:
+[   1.0000030] ACPI: SSDT 0xFFFF96B99D75F008 00037A (v01 PmRef  Cpu0Ist  00003000 INTL 20061109)
+[   1.0000030] ACPI: Dynamic OEM Table Load:
+[   1.0000030] ACPI: SSDT 0xFFFF96B99D790008 000433 (v01 PmRef  Cpu0Cst  00003001 INTL 20061109)
+[   1.0000030] ACPI: Dynamic OEM Table Load:
+[   1.0000030] ACPI: SSDT 0xFFFF96B82E18A048 00015F (v01 PmRef  ApIst    00003000 INTL 20061109)
+[   1.0000030] ACPI: Dynamic OEM Table Load:
+[   1.0000030] ACPI: SSDT 0xFFFF96B82E0EAC38 00008D (v01 PmRef  ApCst    00003000 INTL 20061109)
+[   1.0000030] acpi0: fixed power button present
+[   1.0408082] hpet0 at acpi0: high precision event timer (mem 0xfed00000-0xfed00400)
+[   1.1295320] acpiec0 at acpi0 (H_EC, PNP0C09-1)acpiec0: unable to evaluate _GPE: AE_NOT_FOUND
+[   1.1295320] acpivga0 at acpi0 (GFX0): ACPI Display Adapter
+[   1.1295320] acpiout0 at acpivga0 (DD01, 0x0100): ACPI Display Output Device
+[   1.1295320] acpiout1 at acpivga0 (DD02, 0x0002): ACPI Display Output Device
+[   1.1295320] acpiout2 at acpivga0 (DD03, 0x0200): ACPI Display Output Device
+[   1.1295320] acpiout3 at acpivga0 (DD04, 0x0004): ACPI Display Output Device
+[   1.1295320] acpiout4 at acpivga0 (DD05, 0x0005): ACPI Display Output Device
+[   1.1295320] acpiout5 at acpivga0 (DD06, 0x0006): ACPI Display Output Device
+[   1.1295320] acpiout6 at acpivga0 (DD07, 0x0007): ACPI Display Output Device
+[   1.1295320] acpiout7 at acpivga0 (DD08, 0x0008): ACPI Display Output Device
+[   1.1295320] acpiout8 at acpivga0 (DD1F, 0x0400): ACPI Display Output Device
+[   1.1295320] acpiout9 at acpivga0 (ISP0, 0x0f38): ACPI Display Output Device
+[   1.1295320] acpivga0: unknown output device acpiout0
+[   1.1295320] acpivga0: unknown output device acpiout1
+[   1.1295320] acpivga0: unknown output device acpiout2
+[   1.1295320] acpivga0: unknown output device acpiout3
+[   1.1295320] acpivga0: unknown output device acpiout4
+[   1.1295320] acpivga0: unknown output device acpiout5
+[   1.1295320] acpivga0: unknown output device acpiout6
+[   1.1295320] acpivga0: unknown output device acpiout7
+[   1.1295320] FWHD (INT0800) at acpi0 not configured
+[   1.1295320] LDRC (PNP0C02) at acpi0 not configured
+[   1.1295320] attimer1 at acpi0 (TIMR, PNP0100): io 0x40-0x43,0x50-0x53 irq 0
+[   1.1295320] SIO1 (PNP0C02) at acpi0 not configured
+[   1.1295320] UAR1 (PNP0501) at acpi0 not configured
+[   1.1295320] PDRC (PNP0C02) at acpi0 not configured
+[   1.1295320] ADMA (DMA0F28) at acpi0 not configured
+[   1.1295320] acpibut0 at acpi0 (SLPB, PNP0C0E): ACPI Sleep Button
+[   1.1295320] GPO0 (INT33FC) at acpi0 not configured
+[   1.1295320] GPO1 (INT33FC) at acpi0 not configured
+[   1.1295320] GPO2 (INT33FC) at acpi0 not configured
+[   1.1295320] sdhc0 at acpi0 (SDHD, 80860F14-1): mem 0x90a8c000-0x90a8cfff irq 44
+[   1.1295320] sdhc0: SDHC 3.0, rev 16, SDMA, 200000 kHz, embedded slot, HS SDR50 DDR50 SDR104 HS200 1.8V, re-tuning mode 1 (128s timer), 512 byte blocks
+[   1.1295320] sdmmc0 at sdhc0 slot 0
+[   1.1295320] sdhc1 at acpi0 (SDHB, INT33BB-2): mem 0x90a38000-0x90a38fff irq 46
+[   1.1295320] sdhc1: SDHC 3.0, rev 181, SDMA, 100000 kHz, embedded slot, HS DDR50 1.8V 3.0V 3.3V, re-tuning mode 1, 2048 byte blocks
+[   1.1295320] sdmmc1 at sdhc1 slot 0
+[   1.1295320] GDM1 (INTL9C60) at acpi0 not configured
+[   1.1295320] GDM2 (INTL9C60) at acpi0 not configured
+[   1.1295320] URT1 (80860F0A) at acpi0 not configured
+[   1.1295320] URT2 (80860F0A) at acpi0 not configured
+[   1.1295320] SPI1 (80860F0E) at acpi0 not configured
+[   1.1295320] I2C1 (80860F41) at acpi0 not configured
+[   1.1295320] I2C2 (80860F41) at acpi0 not configured
+[   1.1295320] I2C3 (80860F41) at acpi0 not configured
+[   1.1295320] I2C4 (80860F41) at acpi0 not configured
+[   1.1295320] I2C5 (80860F41) at acpi0 not configured
+[   1.1295320] I2C6 (80860F41) at acpi0 not configured
+[   1.1295320] I2C7 (80860F41) at acpi0 not configured
+[   1.1295320] MBID (INT33BD) at acpi0 not configured
+[   1.1295320] TPM (MSFT0101) at acpi0 not configured
+[   1.1295320] ACPI: Enabled 5 GPEs in block 00 to 3F
+[   1.1295320] pci0 at mainbus0 bus 0: configuration mode 1
+[   1.1295320] pchb0 at pci0 dev 0 function 0: vendor 8086 product 0f00 (rev. 0x11)
+[   1.1295320] i915drmkms0 at pci0 dev 2 function 0: vendor 8086 product 0f31 (rev. 0x11)
+[   1.1295320] ahcisata0 at pci0 dev 19 function 0: vendor 8086 product 0f23 (rev. 0x11)
+[   1.1295320] ahcisata0: AHCI revision 1.30, 2 ports, 32 slots, CAP 0xc720ff01<PSC,SSC,PMD,ISS=0x2=Gen2,SCLO,SAL,SALP,SNCQ,S64A>
+[   1.1295320] ahcisata0: interrupting at msi0 vec 0
+[   1.1295320] atabus0 at ahcisata0 channel 0
+[   1.1295320] xhci0 at pci0 dev 20 function 0: vendor 8086 product 0f35 (rev. 0x11)
+[   1.1295320] xhci0: interrupting at msi1 vec 0
+[   1.1295320] usb0 at xhci0: USB revision 3.0
+[   1.1295320] usb1 at xhci0: USB revision 2.0
+[   1.1295320] vendor 8086 product 0f18 (miscellaneous crypto, revision 0x11) at pci0 dev 26 function 0 not configured
+[   1.1295320] hdaudio0 at pci0 dev 27 function 0: HD Audio Controller
+[   1.1295320] hdaudio0: interrupting at msi2 vec 0
+[   1.1295320] hdafg0 at hdaudio0: vendor 8086 product 2882
+[   1.1295320] hdafg0: DP00 8ch: Digital Out [Jack]
+[   1.1295320] hdafg0: 8ch/0ch 48000Hz PCM16*
+[   1.1295320] ppb0 at pci0 dev 28 function 0: vendor 8086 product 0f48 (rev. 0x11)
+[   1.1295320] ppb0: PCI Express capability version 2 <Root Port of PCI-E Root Complex> x1 @ 5.0GT/s
+[   1.1295320] pci1 at ppb0 bus 1
+[   1.1295320] ppb1 at pci0 dev 28 function 1: vendor 8086 product 0f4a (rev. 0x11)
+[   1.1295320] ppb1: PCI Express capability version 2 <Root Port of PCI-E Root Complex> x1 @ 5.0GT/s
+[   1.1295320] ppb1: link is x1 @ 2.5GT/s
+[   1.1295320] pci2 at ppb1 bus 2
+[   1.1295320] re0 at pci2 dev 0 function 0: RealTek 8168/8111 PCIe Gigabit Ethernet (rev. 0x19)
+[   1.1295320] re0: interrupting at msix3 vec 0
+[   1.1295320] re0: Ethernet address 00:0a:85:12:00:6c
+[   1.1295320] rgephy0 at re0 phy 7: RTL8211E 1000BASE-T media interface
+[   1.1295320] rgephy0: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT-FDX, auto
+[   1.1295320] ppb2 at pci0 dev 28 function 2: vendor 8086 product 0f4c (rev. 0x11)
+[   1.1295320] ppb2: PCI Express capability version 2 <Root Port of PCI-E Root Complex> x1 @ 5.0GT/s
+[   1.1295320] pci3 at ppb2 bus 3
+[   1.1295320] ppb3 at pci3 dev 0 function 0: vendor 12d8 product 2404 (rev. 0x05)
+[   1.1295320] ppb3: PCI Express capability version 2 <Upstream Port of PCI-E Switch>
+[   1.1295320] pci4 at ppb3 bus 4
+[   1.1295320] ppb4 at pci4 dev 1 function 0: vendor 12d8 product 2404 (rev. 0x05)
+[   1.1295320] ppb4: PCI Express capability version 2 <Downstream Port of PCI-E Switch> x1 @ 2.5GT/s
+[   1.1295320] pci5 at ppb4 bus 5
+[   1.1295320] re1 at pci5 dev 0 function 0: RealTek 8168/8111 PCIe Gigabit Ethernet (rev. 0x19)
+[   1.1295320] re1: interrupting at msix4 vec 0
+[   1.1295320] re1: Ethernet address 00:0a:85:12:00:6e
+[   1.1295320] rgephy1 at re1 phy 7: RTL8211E 1000BASE-T media interface
+[   1.1295320] rgephy1: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT-FDX, auto
+[   1.1295320] ppb5 at pci4 dev 2 function 0: vendor 12d8 product 2404 (rev. 0x05)
+[   1.1295320] ppb5: PCI Express capability version 2 <Downstream Port of PCI-E Switch> x1 @ 2.5GT/s
+[   1.1295320] pci6 at ppb5 bus 6
+[   1.1295320] re2 at pci6 dev 0 function 0: RealTek 8168/8111 PCIe Gigabit Ethernet (rev. 0x19)
+[   1.1295320] re2: interrupting at msix5 vec 0
+[   1.1295320] re2: Ethernet address 00:0a:85:12:00:6f
+[   1.1295320] rgephy2 at re2 phy 7: RTL8211E 1000BASE-T media interface
+[   1.1295320] rgephy2: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT-FDX, auto
+[   1.1295320] ppb6 at pci4 dev 3 function 0: vendor 12d8 product 2404 (rev. 0x05)
+[   1.1295320] ppb6: PCI Express capability version 2 <Downstream Port of PCI-E Switch> x1 @ 5.0GT/s
+[   1.1295320] pci7 at ppb6 bus 7
+[   1.1295320] ppb7 at pci0 dev 28 function 3: vendor 8086 product 0f4e (rev. 0x11)
+[   1.1295320] ppb7: PCI Express capability version 2 <Root Port of PCI-E Root Complex> x1 @ 5.0GT/s
+[   1.1295320] ppb7: link is x1 @ 2.5GT/s
+[   1.1295320] pci8 at ppb7 bus 8
+[   1.1295320] re3 at pci8 dev 0 function 0: RealTek 8168/8111 PCIe Gigabit Ethernet (rev. 0x19)
+[   1.1295320] re3: interrupting at msix6 vec 0
+[   1.1295320] re3: Ethernet address 00:0a:85:12:00:6d
+[   1.1295320] rgephy3 at re3 phy 7: RTL8211E 1000BASE-T media interface
+[   1.1295320] rgephy3: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT-FDX, auto
+[   1.1295320] pcib0 at pci0 dev 31 function 0: vendor 8086 product 0f1c (rev. 0x11)
+[   1.1295320] ichsmb0 at pci0 dev 31 function 3: vendor 8086 product 0f12 (rev. 0x11)
+[   1.1295320] ichsmb0: interrupting at ioapic0 pin 18
+[   1.1295320] iic0 at ichsmb0: I2C bus
+[   1.1295320] isa0 at pcib0
+[   1.1295320] tpm0 at isa0 iomem 0xfed40000-0xfed44fff irq 7tpm0: device 0x001a15d1 rev 0x10
+[   1.1295320] com0 at isa0 port 0x3f8-0x3ff irq 4: ns16550a, working fifo
+[   1.1295320] com0: console
+[   1.1295320] pcppi0 at isa0 port 0x61
+[   1.1295320] spkr0 at pcppi0: PC Speaker
+[   1.1295320] wsbell at spkr0 not configured
+[   1.1295320] midi0 at pcppi0: PC speaker
+[   1.1295320] sysbeep0 at pcppi0
+[   1.1295320] attimer1: attached to pcppi0
+[   1.1295320] acpicpu0 at cpu0: ACPI CPU
+[   1.1295320] coretemp0 at cpu0: thermal sensor, 1 C resolution
+[   1.1295320] acpicpu1 at cpu1: ACPI CPU
+[   1.1295320] coretemp1 at cpu1: thermal sensor, 1 C resolution
+[   1.1295320] acpicpu2 at cpu2: ACPI CPU
+[   1.1295320] coretemp2 at cpu2: thermal sensor, 1 C resolution
+[   1.1295320] acpicpu3 at cpu3: ACPI CPU
+[   1.1295320] coretemp3 at cpu3: thermal sensor, 1 C resolution
+[   2.2598594] uhub0 at usb0: NetBSD (0000) xHCI root hub (0000), class 9/0, rev 3.00/1.00, addr 0
+[   2.3623212] uhub1 at usb1: NetBSD (0000) xHCI root hub (0000), class 9/0, rev 2.00/1.00, addr 0
+[   2.6800722] sdhc0: cmd timeout error
+[   2.7301072] sdhc1: cmd timeout error
+[   2.8101653] ahcisata0 port 0: device present, speed: 3.0Gb/s
+[   2.9102354] sdmmc1: sdmmc_mem_enable failed with error 60
+[   2.9802846] sdmmc1: couldn't enable card: 60
+[   3.1604096] sdhc1: cmd timeout error
+[   3.2504732] sdmmc1: sdmmc_mem_enable failed with error 60
+[   3.3305289] sdmmc1: couldn't enable card: 60
+[   3.5106559] sdhc0: timeout waiting for mask 0x3 value 0 (state=0x1fff0a06)
+[   3.5106559] sdhc0: command or data phase inhibited
+[   3.5106559] sdhc0: tuning did not complete, using fixed sampling clock
+[   3.7483853] ld0 at sdmmc0: <0x45:0x0100:DG4008:0x00:0x64d54210:0x000>
+[   3.8208766] ld0: 7457 MB, 3788 cyl, 64 head, 63 sec, 512 bytes/sect x 15273600 sectors
+[   3.9209451] dk0 at ld0: "boot", 3000320 blocks at 2048, type: ntfs
+[   3.9909929] dk1 at ld0: "primary", 12269568 blocks at 3002368, type: ext2fs
+[   4.0710492] ld0: 4-bit width, HS200, 4096 KB cache, 200.000 MHz
+[   4.1911362] uhub2 at uhub1 port 1: Microchip Tech (0x424) USB2744 (0x2744), class 9/0, rev 2.10/2.05, addr 1
+[   4.3012110] uhub2: multiple transaction translators
+[   4.3612531] uhub3 at uhub0 port 1: Microchip Tech (0x424) USB5744 (0x5744), class 9/0, rev 3.10/2.05, addr 2
+[   5.1518101] wd0 at atabus0 drive 0
+[   5.1818309] wd0: <UDinfo M2S 128GB>
+[   5.2318647] wd0: 119 GB, 248085 cyl, 16 head, 63 sec, 512 bytes/sect x 250069680 sectors
+[   5.3519506] umass0 at uhub2 port 3 configuration 1 interface 0
+[   5.4219997] umass0: TOSHIBA (0x930) TransMemory (0x6544), rev 2.00/1.00, addr 3
+[   5.5120615] scsibus0 at umass0: 2 targets, 1 lun per target
+[   5.5821117] sd0 at scsibus0 target 0 lun 0: <TOSHIBA, TransMemory, 1.00> disk removable
+[   5.6821831] sd0: fabricating a geometry
+[   5.7222108] sd0: 7391 MB, 7391 cyl, 64 head, 32 sec, 512 bytes/sect x 15137280 sectors
+[   5.8222815] sd0: fabricating a geometry
+[   5.8723151] dk2 at sd0: "EFI system", 262144 blocks at 2048, type: msdos
+[   5.9523709] dk3 at sd0: "88433fbf-13a9-4373-8940-4ef32debd8f1", 2908160 blocks at 264192, type: ffs
+[   6.4026889] ugen0 at uhub2 port 5
+[   6.4427172] ugen0: Microchip Tech (0x424) Hub Controller (0x2740), rev 2.01/2.00, addr 4
+[   6.5928226] WARNING: 13 errors while detecting hardware; check system log.
+[   6.6728786] boot device: sd0
+[   6.7029003] root on dk3
+[   6.7429280] root file system type: ffs
+[   6.7939382] kern.module.path=/stand/amd64/9.0/modules
+[   6.8543479] kern info: [drm] Memory usable by graphics device = 2048M
+[   6.9330620] kern info: [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[   7.0131160] kern info: [drm] Driver supports precise vblank timestamp query.
+[   7.1031794] kern info: [drm] failed to find VBIOS tables
+[   7.1932426] i915drmkms0: interrupting at ioapic0 pin 16 (i915drmkms0)
+[   7.4434190] kern info: [drm] GMBUS [i915 gmbus vga] timed out, falling back to bit banging on pin 2
+[   7.7036019] i915drmkms0: info: No connectors reported connected with modes
+[   7.7836573] kern info: [drm] Cannot find any crtc or sizes - going 1024x768
+[   7.8637136] intelfb0 at i915drmkms0
+[   8.2439806] wsdisplay0 at intelfb0 kbdmux 1
+[   8.6042354] /dev/dk3: file system not clean (fs_clean=0x4); please fsck(8)
+[   8.6842900] /dev/dk3: lost blocks 0 files 0
+
+
+You are using a serial console, we do not know your terminal emulation.
+Please select one, typical values are:
+
+        vt100
+        ansi
+        xterm
+
+Terminal type (just hit ENTER for 'vt220'): 
+
+ NetBSD/amd64 9.0
+
+ This menu-driven tool is designed to help you install NetBSD to a hard disk,
+ or upgrade an existing NetBSD system, with a minimum of work.
+ In the following menus type the reference letter (a, b, c, ...) to select an
+ item, or type CTRL+N/CTRL+P to select the next/previous item.
+ The arrow keys and Page-up/Page-down may also work.
+ Activate the current selection from the menu by typing the enter key.
+ 
+ 
+ Thank you for using NetBSD!
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx NetBSD-9.0 Install Systemxxxx>a: Install NetBSD to hard diskxx b: Upgrade NetBSD on a hard diskxx c: Re-install sets or install additional sets xx d: Reboot the computerxx e: Utility menuxx f: Config menuxx x: Exit Install Systemxmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj a: Install NetBSD to hard disk>b: Upgrade NetBSD on a hard disk b: Upgrade NetBSD on a hard disk>c: Re-install sets or install additional sets c: Re-install sets or install additional sets>d: Reboot the computer d: Reboot the computer>e: Utility menu e: Utility menu>f: Config menu f: Config menu>x: Exit Install System
+
+
+To return to the installer, quit this shell by typing 'exit' or ^D.
+# dmesg
+[     1.000000] Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+[     1.000000]     2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+[     1.000000]     2018, 2019, 2020 The NetBSD Foundation, Inc.  All rights reserved.
+[     1.000000] Copyright (c) 1982, 1986, 1989, 1991, 1993
+[     1.000000]     The Regents of the University of California.  All rights reserved.
+
+[     1.000000] NetBSD 9.0 (GENERIC) #0: Fri Feb 14 00:06:28 UTC 2020
+[     1.000000]         mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/amd64/compile/GENERIC
+[     1.000000] total memory = 8081 MB
+[     1.000000] avail memory = 7823 MB
+[     1.000000] cpu_rng: RDRAND
+[     1.000000] timecounter: Timecounters tick every 10.000 msec
+[     1.000000] Kernelized RAIDframe activated
+[     1.000000] running cgd selftest aes-xts-256 aes-xts-512 done
+[     1.000000] RTC BIOS diagnostic error 0xf<fixed_disk,invalid_time>
+[     1.000000] timecounter: Timecounter "i8254" frequency 1193182 Hz quality 100
+[     1.000003] efi: systbl at pa 79987f18
+[     1.000003] Default string Default string (Default string)
+[     1.000003] mainbus0 (root)
+[     1.000003] ACPI: RSDP 0x000000007964B000 000024 (v02 ALASKA)
+[     1.000003] ACPI: XSDT 0x000000007964B088 00008C (v01 ALASKA A M I    01072009 AMI  00010013)
+[     1.000003] ACPI: FACP 0x00000000796562A0 00010C (v05 ALASKA A M I    01072009 AMI  00010013)
+[     1.000003] ACPI: DSDT 0x000000007964B1A8 00B0F1 (v02 ALASKA A M I    01072009 INTL 20120913)
+[     1.000003] ACPI: FACS 0x00000000796F7F80 000040
+[     1.000003] ACPI: APIC 0x00000000796563B0 000084 (v03 ALASKA A M I    01072009 AMI  00010013)
+[     1.000003] ACPI: FPDT 0x0000000079656438 000044 (v01 ALASKA A M I    01072009 AMI  00010013)
+[     1.000003] ACPI: FIDT 0x0000000079656480 00009C (v01 ALASKA A M I    01072009 AMI  00010013)
+[     1.000003] ACPI: LPIT 0x0000000079656520 000104 (v01 ALASKA A M I    00000003 VLV2 0100000D)
+[     1.000003] ACPI: MCFG 0x0000000079656628 00003C (v01 ALASKA A M I    01072009 MSFT 00000097)
+[     1.000003] ACPI: HPET 0x0000000079656668 000038 (v01 ALASKA A M I    01072009 AMI. 00000005)
+[     1.000003] ACPI: SSDT 0x00000000796566A0 000763 (v01 PmRef  CpuPm    00003000 INTL 20061109)
+[     1.000003] ACPI: SSDT 0x0000000079656E08 000290 (v01 PmRef  Cpu0Tst  00003000 INTL 20061109)
+[     1.000003] ACPI: SSDT 0x0000000079657098 00017A (v01 PmRef  ApTst    00003000 INTL 20061109)
+[     1.000003] ACPI: UEFI 0x0000000079657218 000042 (v01 ALASKA A M I    00000000      00000000)
+[     1.000003] ACPI: CSRT 0x0000000079657260 00014C (v00 INTEL  EDK2     00000005 INTL 20120624)
+[     1.000003] ACPI: TPM2 0x00000000796573B0 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+[     1.000003] ACPI: 4 ACPI AML tables successfully acquired and loaded
+[     1.000003] ioapic0 at mainbus0 apid 1: pa 0xfec00000, version 0x20, 87 pins
+[     1.000003] cpu0 at mainbus0 apid 0
+[     1.000003] cpu0: Intel(R) Atom(TM) CPU  E3845  @ 1.91GHz, id 0x30679
+[     1.000003] cpu0: package 0, core 0, smt 0
+[     1.000003] cpu1 at mainbus0 apid 2
+[     1.000003] cpu1: Intel(R) Atom(TM) CPU  E3845  @ 1.91GHz, id 0x30679
+[     1.000003] cpu1: package 0, core 1, smt 0
+[     1.000003] cpu2 at mainbus0 apid 4
+[     1.000003] cpu2: Intel(R) Atom(TM) CPU  E3845  @ 1.91GHz, id 0x30679
+[     1.000003] cpu2: package 0, core 2, smt 0
+[     1.000003] cpu3 at mainbus0 apid 6
+[     1.000003] cpu3: Intel(R) Atom(TM) CPU  E3845  @ 1.91GHz, id 0x30679
+[     1.000003] cpu3: package 0, core 3, smt 0
+[     1.000003] acpi0 at mainbus0: Intel ACPICA 20190405
+[     1.000003] acpi0: X/RSDT: OemId <ALASKA,  A M I ,01072009>, AslId <AMI ,00010013>
+[     1.000003] acpi0: MCFG: segment 0, bus 0-255, address 0x00000000e0000000
+[     1.000003] ACPI: Dynamic OEM Table Load:
+[     1.000003] ACPI: SSDT 0xFFFF96B99D75F008 00037A (v01 PmRef  Cpu0Ist  00003000 INTL 20061109)
+[     1.000003] ACPI: Dynamic OEM Table Load:
+[     1.000003] ACPI: SSDT 0xFFFF96B99D790008 000433 (v01 PmRef  Cpu0Cst  00003001 INTL 20061109)
+[     1.000003] ACPI: Dynamic OEM Table Load:
+[     1.000003] ACPI: SSDT 0xFFFF96B82E18A048 00015F (v01 PmRef  ApIst    00003000 INTL 20061109)
+[     1.000003] ACPI: Dynamic OEM Table Load:
+[     1.000003] ACPI: SSDT 0xFFFF96B82E0EAC38 00008D (v01 PmRef  ApCst    00003000 INTL 20061109)
+[     1.000003] acpi0: SCI interrupting at int 9
+[     1.000003] acpi0: fixed power button present
+[     1.000003] timecounter: Timecounter "ACPI-Safe" frequency 3579545 Hz quality 900
+[     1.040808] hpet0 at acpi0: high precision event timer (mem 0xfed00000-0xfed00400)
+[     1.040808] timecounter: Timecounter "hpet0" frequency 14318180 Hz quality 2000
+[     1.129532] acpiec0 at acpi0 (H_EC, PNP0C09-1)acpiec0: autoconfiguration error: unable to evaluate _GPE: AE_NOT_FOUND
+[     1.129532] acpivga0 at acpi0 (GFX0): ACPI Display Adapter
+[     1.129532] acpiout0 at acpivga0 (DD01, 0x0100): ACPI Display Output Device
+[     1.129532] acpiout1 at acpivga0 (DD02, 0x0002): ACPI Display Output Device
+[     1.129532] acpiout2 at acpivga0 (DD03, 0x0200): ACPI Display Output Device
+[     1.129532] acpiout3 at acpivga0 (DD04, 0x0004): ACPI Display Output Device
+[     1.129532] acpiout4 at acpivga0 (DD05, 0x0005): ACPI Display Output Device
+[     1.129532] acpiout5 at acpivga0 (DD06, 0x0006): ACPI Display Output Device
+[     1.129532] acpiout6 at acpivga0 (DD07, 0x0007): ACPI Display Output Device
+[     1.129532] acpiout7 at acpivga0 (DD08, 0x0008): ACPI Display Output Device
+[     1.129532] acpiout8 at acpivga0 (DD1F, 0x0400): ACPI Display Output Device
+[     1.129532] acpiout8: brightness levels: [0-100]
+[     1.129532] acpiout9 at acpivga0 (ISP0, 0x0f38): ACPI Display Output Device
+[     1.129532] acpivga0: autoconfiguration error: unknown output device acpiout0
+[     1.129532] acpivga0: autoconfiguration error: unknown output device acpiout1
+[     1.129532] acpivga0: autoconfiguration error: unknown output device acpiout2
+[     1.129532] acpivga0: autoconfiguration error: unknown output device acpiout3
+[     1.129532] acpivga0: autoconfiguration error: unknown output device acpiout4
+[     1.129532] acpivga0: autoconfiguration error: unknown output device acpiout5
+[     1.129532] acpivga0: autoconfiguration error: unknown output device acpiout6
+[     1.129532] acpivga0: autoconfiguration error: unknown output device acpiout7
+[     1.129532] acpivga0: connected output devices:
+[     1.129532] acpivga0:   0x0400 (acpiout8): Unknown Output Device, head 0
+[     1.129532] acpivga0:   0x0f38 (acpiout9): Unknown Output Device, head 0, non vga
+[     1.129532] FWHD (INT0800) at acpi0 not configured
+[     1.129532] LDRC (PNP0C02) at acpi0 not configured
+[     1.129532] attimer1 at acpi0 (TIMR, PNP0100): io 0x40-0x43,0x50-0x53 irq 0
+[     1.129532] SIO1 (PNP0C02) at acpi0 not configured
+[     1.129532] UAR1 (PNP0501) at acpi0 not configured
+[     1.129532] PDRC (PNP0C02) at acpi0 not configured
+[     1.129532] ADMA (DMA0F28) at acpi0 not configured
+[     1.129532] acpibut0 at acpi0 (SLPB, PNP0C0E): ACPI Sleep Button
+[     1.129532] GPO0 (INT33FC) at acpi0 not configured
+[     1.129532] GPO1 (INT33FC) at acpi0 not configured
+[     1.129532] GPO2 (INT33FC) at acpi0 not configured
+[     1.129532] sdhc0 at acpi0 (SDHD, 80860F14-1): mem 0x90a8c000-0x90a8cfff irq 44
+[     1.129532] sdhc0: SDHC 3.0, rev 16, SDMA, 200000 kHz, embedded slot, HS SDR50 DDR50 SDR104 HS200 1.8V, re-tuning mode 1 (128s timer), 512 byte blocks
+[     1.129532] sdmmc0 at sdhc0 slot 0
+[     1.129532] sdhc1 at acpi0 (SDHB, INT33BB-2): mem 0x90a38000-0x90a38fff irq 46
+[     1.129532] sdhc1: SDHC 3.0, rev 181, SDMA, 100000 kHz, embedded slot, HS DDR50 1.8V 3.0V 3.3V, re-tuning mode 1, 2048 byte blocks
+[     1.129532] sdmmc1 at sdhc1 slot 0
+[     1.129532] GDM1 (INTL9C60) at acpi0 not configured
+[     1.129532] GDM2 (INTL9C60) at acpi0 not configured
+[     1.129532] URT1 (80860F0A) at acpi0 not configured
+[     1.129532] URT2 (80860F0A) at acpi0 not configured
+[     1.129532] SPI1 (80860F0E) at acpi0 not configured
+[     1.129532] I2C1 (80860F41) at acpi0 not configured
+[     1.129532] I2C2 (80860F41) at acpi0 not configured
+[     1.129532] I2C3 (80860F41) at acpi0 not configured
+[     1.129532] I2C4 (80860F41) at acpi0 not configured
+[     1.129532] I2C5 (80860F41) at acpi0 not configured
+[     1.129532] I2C6 (80860F41) at acpi0 not configured
+[     1.129532] I2C7 (80860F41) at acpi0 not configured
+[     1.129532] MBID (INT33BD) at acpi0 not configured
+[     1.129532] TPM (MSFT0101) at acpi0 not configured
+[     1.129532] ACPI: Enabled 5 GPEs in block 00 to 3F
+[     1.129532] pci0 at mainbus0 bus 0: configuration mode 1
+[     1.129532] pci0: i/o space, memory space enabled, rd/line, rd/mult, wr/inv ok
+[     1.129532] pchb0 at pci0 dev 0 function 0: vendor 8086 product 0f00 (rev. 0x11)
+[     1.129532] i915drmkms0 at pci0 dev 2 function 0: vendor 8086 product 0f31 (rev. 0x11)
+[     1.129532] ahcisata0 at pci0 dev 19 function 0: vendor 8086 product 0f23 (rev. 0x11)
+[     1.129532] ahcisata0: 64-bit DMA
+[     1.129532] ahcisata0: AHCI revision 1.30, 2 ports, 32 slots, CAP 0xc720ff01<PSC,SSC,PMD,ISS=0x2=Gen2,SCLO,SAL,SALP,SNCQ,S64A>
+[     1.129532] ahcisata0: interrupting at msi0 vec 0
+[     1.129532] atabus0 at ahcisata0 channel 0
+[     1.129532] xhci0 at pci0 dev 20 function 0: vendor 8086 product 0f35 (rev. 0x11)
+[     1.129532] xhci0: interrupting at msi1 vec 0
+[     1.129532] xhci0: xHCI version 1.0
+[     1.129532] usb0 at xhci0: USB revision 3.0
+[     1.129532] usb1 at xhci0: USB revision 2.0
+[     1.129532] vendor 8086 product 0f18 (miscellaneous crypto, revision 0x11) at pci0 dev 26 function 0 not configured
+[     1.129532] hdaudio0 at pci0 dev 27 function 0: HD Audio Controller
+[     1.129532] hdaudio0: interrupting at msi2 vec 0
+[     1.129532] hdafg0 at hdaudio0: vendor 8086 product 2882
+[     1.129532] hdafg0: DP00 8ch: Digital Out [Jack]
+[     1.129532] hdafg0: 8ch/0ch 48000Hz PCM16*
+[     1.129532] ppb0 at pci0 dev 28 function 0: vendor 8086 product 0f48 (rev. 0x11)
+[     1.129532] ppb0: PCI Express capability version 2 <Root Port of PCI-E Root Complex> x1 @ 5.0GT/s
+[     1.129532] pci1 at ppb0 bus 1
+[     1.129532] pci1: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.129532] ppb1 at pci0 dev 28 function 1: vendor 8086 product 0f4a (rev. 0x11)
+[     1.129532] ppb1: PCI Express capability version 2 <Root Port of PCI-E Root Complex> x1 @ 5.0GT/s
+[     1.129532] ppb1: link is x1 @ 2.5GT/s
+[     1.129532] pci2 at ppb1 bus 2
+[     1.129532] pci2: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.129532] re0 at pci2 dev 0 function 0: RealTek 8168/8111 PCIe Gigabit Ethernet (rev. 0x19)
+[     1.129532] re0: interrupting at msix3 vec 0
+[     1.129532] re0: Ethernet address 00:0a:85:12:00:6c
+[     1.129532] re0: using 256 tx descriptors
+[     1.129532] rgephy0 at re0 phy 7: RTL8211E 1000BASE-T media interface
+[     1.129532] rgephy0: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT-FDX, auto
+[     1.129532] ppb2 at pci0 dev 28 function 2: vendor 8086 product 0f4c (rev. 0x11)
+[     1.129532] ppb2: PCI Express capability version 2 <Root Port of PCI-E Root Complex> x1 @ 5.0GT/s
+[     1.129532] pci3 at ppb2 bus 3
+[     1.129532] pci3: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.129532] ppb3 at pci3 dev 0 function 0: vendor 12d8 product 2404 (rev. 0x05)
+[     1.129532] ppb3: PCI Express capability version 2 <Upstream Port of PCI-E Switch>
+[     1.129532] pci4 at ppb3 bus 4
+[     1.129532] pci4: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.129532] ppb4 at pci4 dev 1 function 0: vendor 12d8 product 2404 (rev. 0x05)
+[     1.129532] ppb4: PCI Express capability version 2 <Downstream Port of PCI-E Switch> x1 @ 2.5GT/s
+[     1.129532] pci5 at ppb4 bus 5
+[     1.129532] pci5: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.129532] re1 at pci5 dev 0 function 0: RealTek 8168/8111 PCIe Gigabit Ethernet (rev. 0x19)
+[     1.129532] re1: interrupting at msix4 vec 0
+[     1.129532] re1: Ethernet address 00:0a:85:12:00:6e
+[     1.129532] re1: using 256 tx descriptors
+[     1.129532] rgephy1 at re1 phy 7: RTL8211E 1000BASE-T media interface
+[     1.129532] rgephy1: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT-FDX, auto
+[     1.129532] ppb5 at pci4 dev 2 function 0: vendor 12d8 product 2404 (rev. 0x05)
+[     1.129532] ppb5: PCI Express capability version 2 <Downstream Port of PCI-E Switch> x1 @ 2.5GT/s
+[     1.129532] pci6 at ppb5 bus 6
+[     1.129532] pci6: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.129532] re2 at pci6 dev 0 function 0: RealTek 8168/8111 PCIe Gigabit Ethernet (rev. 0x19)
+[     1.129532] re2: interrupting at msix5 vec 0
+[     1.129532] re2: Ethernet address 00:0a:85:12:00:6f
+[     1.129532] re2: using 256 tx descriptors
+[     1.129532] rgephy2 at re2 phy 7: RTL8211E 1000BASE-T media interface
+[     1.129532] rgephy2: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT-FDX, auto
+[     1.129532] ppb6 at pci4 dev 3 function 0: vendor 12d8 product 2404 (rev. 0x05)
+[     1.129532] ppb6: PCI Express capability version 2 <Downstream Port of PCI-E Switch> x1 @ 5.0GT/s
+[     1.129532] pci7 at ppb6 bus 7
+[     1.129532] pci7: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.129532] ppb7 at pci0 dev 28 function 3: vendor 8086 product 0f4e (rev. 0x11)
+[     1.129532] ppb7: PCI Express capability version 2 <Root Port of PCI-E Root Complex> x1 @ 5.0GT/s
+[     1.129532] ppb7: link is x1 @ 2.5GT/s
+[     1.129532] pci8 at ppb7 bus 8
+[     1.129532] pci8: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.129532] re3 at pci8 dev 0 function 0: RealTek 8168/8111 PCIe Gigabit Ethernet (rev. 0x19)
+[     1.129532] re3: interrupting at msix6 vec 0
+[     1.129532] re3: Ethernet address 00:0a:85:12:00:6d
+[     1.129532] re3: using 256 tx descriptors
+[     1.129532] rgephy3 at re3 phy 7: RTL8211E 1000BASE-T media interface
+[     1.129532] rgephy3: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT-FDX, auto
+[     1.129532] pcib0 at pci0 dev 31 function 0: vendor 8086 product 0f1c (rev. 0x11)
+[     1.129532] ichsmb0 at pci0 dev 31 function 3: vendor 8086 product 0f12 (rev. 0x11)
+[     1.129532] ichsmb0: interrupting at ioapic0 pin 18
+[     1.129532] iic0 at ichsmb0: I2C bus
+[     1.129532] isa0 at pcib0
+[     1.129532] tpm0 at isa0 iomem 0xfed40000-0xfed44fff irq 7tpm0: device 0x001a15d1 rev 0x10
+[     1.129532] com0 at isa0 port 0x3f8-0x3ff irq 4: ns16550a, working fifo
+[     1.129532] com0: console
+[     1.129532] pcppi0 at isa0 port 0x61
+[     1.129532] spkr0 at pcppi0: PC Speaker
+[     1.129532] wsbell at spkr0 not configured
+[     1.129532] midi0 at pcppi0: PC speaker
+[     1.129532] sysbeep0 at pcppi0
+[     1.129532] attimer1: attached to pcppi0
+[     1.129532] acpicpu0 at cpu0: ACPI CPU
+[     1.129532] acpicpu0: C1: FFH, lat   1 us, pow  1000 mW
+[     1.129532] acpicpu0: C2: FFH, lat 500 us, pow    10 mW
+[     1.129532] acpicpu0: C3: FFH, lat 1500 us, pow    10 mW
+[     1.129532] acpicpu0: P0: FFH, lat  10 us, pow  2000 mW, 1909 MHz
+[     1.129532] acpicpu0: P1: FFH, lat  10 us, pow  1835 mW, 1743 MHz
+[     1.129532] acpicpu0: P2: FFH, lat  10 us, pow  1670 mW, 1577 MHz
+[     1.129532] acpicpu0: P3: FFH, lat  10 us, pow  1505 mW, 1411 MHz
+[     1.129532] acpicpu0: P4: FFH, lat  10 us, pow  1341 mW, 1245 MHz
+[     1.129532] acpicpu0: P5: FFH, lat  10 us, pow  1176 mW, 1079 MHz
+[     1.129532] acpicpu0: P6: FFH, lat  10 us, pow  1011 mW,  913 MHz
+[     1.129532] acpicpu0: P7: FFH, lat  10 us, pow   847 mW,  747 MHz
+[     1.129532] acpicpu0: P8: FFH, lat  10 us, pow   600 mW,  498 MHz
+[     1.129532] acpicpu0: T0: FFH, lat   1 us, pow   600 mW, 100 %
+[     1.129532] acpicpu0: T1: FFH, lat   1 us, pow   525 mW,  88 %
+[     1.129532] acpicpu0: T2: FFH, lat   1 us, pow   450 mW,  75 %
+[     1.129532] acpicpu0: T3: FFH, lat   1 us, pow   375 mW,  63 %
+[     1.129532] acpicpu0: T4: FFH, lat   1 us, pow   300 mW,  50 %
+[     1.129532] acpicpu0: T5: FFH, lat   1 us, pow   225 mW,  38 %
+[     1.129532] acpicpu0: T6: FFH, lat   1 us, pow   150 mW,  25 %
+[     1.129532] acpicpu0: T7: FFH, lat   1 us, pow    75 mW,  13 %
+[     1.129532] coretemp0 at cpu0: thermal sensor, 1 C resolution, Tjmax=110
+[     1.129532] acpicpu1 at cpu1: ACPI CPU
+[     1.129532] coretemp1 at cpu1: thermal sensor, 1 C resolution, Tjmax=110
+[     1.129532] acpicpu2 at cpu2: ACPI CPU
+[     1.129532] coretemp2 at cpu2: thermal sensor, 1 C resolution, Tjmax=110
+[     1.129532] acpicpu3 at cpu3: ACPI CPU
+[     1.129532] coretemp3 at cpu3: thermal sensor, 1 C resolution, Tjmax=110
+[     1.129532] timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+[     2.259778] timecounter: Timecounter "TSC" frequency 1916880030 Hz quality 3000
+[     2.259859] uhub0 at usb0: NetBSD (0000) xHCI root hub (0000), class 9/0, rev 3.00/1.00, addr 0
+[     2.362321] uhub0: 1 port with 1 removable, self powered
+[     2.362321] uhub1 at usb1: NetBSD (0000) xHCI root hub (0000), class 9/0, rev 2.00/1.00, addr 0
+[     2.459917] uhub1: 6 ports with 6 removable, self powered
+[     2.680072] sdhc0: cmd timeout error
+[     2.730107] sdhc1: cmd timeout error
+[     2.810165] ahcisata0 port 0: device present, speed: 3.0Gb/s
+[     2.910235] sdmmc1: sdmmc_mem_enable failed with error 60
+[     2.980285] sdmmc1: autoconfiguration error: couldn't enable card: 60
+[     3.160410] sdhc1: cmd timeout error
+[     3.250473] sdmmc1: sdmmc_mem_enable failed with error 60
+[     3.330529] sdmmc1: autoconfiguration error: couldn't enable card: 60
+[     3.400581] IPsec: Initialized Security Association Processing.
+[     3.510656] sdhc0: autoconfiguration error: timeout waiting for mask 0x3 value 0 (state=0x1fff0a06)
+[     3.510656] sdhc0: command or data phase inhibited
+[     3.510656] sdhc0: autoconfiguration error: tuning did not complete, using fixed sampling clock
+[     3.748385] ld0 at sdmmc0: <0x45:0x0100:DG4008:0x00:0x64d54210:0x000>
+[     3.820877] ld0: 7457 MB, 3788 cyl, 64 head, 63 sec, 512 bytes/sect x 15273600 sectors
+[     3.920945] ld0: GPT GUID: 3be0d71a-152c-4ba3-95f2-49b9a44fab1c
+[     3.920945] dk0 at ld0: "boot", 3000320 blocks at 2048, type: ntfs
+[     3.990993] dk1 at ld0: "primary", 12269568 blocks at 3002368, type: ext2fs
+[     4.071049] ld0: 4-bit width, HS200, 4096 KB cache, 200.000 MHz
+[     4.191136] uhub2 at uhub1 port 1: Microchip Tech (0x424) USB2744 (0x2744), class 9/0, rev 2.10/2.05, addr 1
+[     4.301211] uhub2: multiple transaction translators
+[     4.361253] uhub2: 5 ports with 4 removable, self powered
+[     4.361253] uhub3 at uhub0 port 1: Microchip Tech (0x424) USB5744 (0x5744), class 9/0, rev 3.10/2.05, addr 2
+[     4.481339] uhub3: 4 ports with 4 removable, self powered
+[     5.151810] wd0 at atabus0 drive 0
+[     5.181831] wd0: <UDinfo M2S 128GB>
+[     5.231865] wd0: drive supports 16-sector PIO transfers, LBA48 addressing
+[     5.231865] wd0: 119 GB, 248085 cyl, 16 head, 63 sec, 512 bytes/sect x 250069680 sectors
+[     5.321928] wd0: drive supports PIO mode 4, DMA mode 2, Ultra-DMA mode 6 (Ultra/133), WRITE DMA FUA, NCQ (32 tags)
+[     5.321928] wd0(ahcisata0:0:0): using PIO mode 4, DMA mode 2, Ultra-DMA mode 6 (Ultra/133) (using DMA), NCQ (31 tags)
+[     5.351951] umass0 at uhub2 port 3 configuration 1 interface 0
+[     5.422000] umass0: TOSHIBA (0x930) TransMemory (0x6544), rev 2.00/1.00, addr 3
+[     5.512061] umass0: using SCSI over Bulk-Only
+[     5.512061] scsibus0 at umass0: 2 targets, 1 lun per target
+[     5.582112] sd0 at scsibus0 target 0 lun 0: <TOSHIBA, TransMemory, 1.00> disk removable
+[     5.682183] sd0: fabricating a geometry
+[     5.722211] sd0: 7391 MB, 7391 cyl, 64 head, 32 sec, 512 bytes/sect x 15137280 sectors
+[     5.822281] sd0: fabricating a geometry
+[     5.872315] sd0: GPT GUID: 3ecec02f-e32f-45f7-8efb-4eccf8a2174c
+[     5.872315] dk2 at sd0: "EFI system", 262144 blocks at 2048, type: msdos
+[     5.952371] dk3 at sd0: "88433fbf-13a9-4373-8940-4ef32debd8f1", 2908160 blocks at 264192, type: ffs
+[     6.402689] ugen0 at uhub2 port 5
+[     6.442717] ugen0: Microchip Tech (0x424) Hub Controller (0x2740), rev 2.01/2.00, addr 4
+[     6.592823] WARNING: 13 errors while detecting hardware; check system log.
+[     6.672879] boot device: sd0
+[     6.702900] root on dk3
+[     6.742928] root file system type: ffs
+[     6.793938] kern.module.path=/stand/amd64/9.0/modules
+[     6.854348] kern info: [drm] Memory usable by graphics device = 2048M
+[     6.933062] kern info: [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[     7.013116] kern info: [drm] Driver supports precise vblank timestamp query.
+[     7.103179] kern info: [drm] failed to find VBIOS tables
+[     7.193243] i915drmkms0: interrupting at ioapic0 pin 16 (i915drmkms0)
+[     7.443419] kern info: [drm] GMBUS [i915 gmbus vga] timed out, falling back to bit banging on pin 2
+[     7.703602] i915drmkms0: info: No connectors reported connected with modes
+[     7.783657] kern info: [drm] Cannot find any crtc or sizes - going 1024x768
+[     7.863714] intelfb0 at i915drmkms0
+[     7.903742] intelfb0: framebuffer at 0xffff9a80adf99000, size 1024x768, depth 32, stride 4096
+[     8.243981] wsdisplay0 at intelfb0 kbdmux 1
+[     8.294016] wsmux1: connecting to wsdisplay0
+[     8.604235] /dev/dk3: file system not clean (fs_clean=0x4); please fsck(8)
+[     8.684290] /dev/dk3: lost blocks 0 files 0
+# halt
+halt: halted by root
+[ 186.4691862] syncing disks... 1 done
+[ 186.5192242] pci7: detached
+[ 186.5559219] ppb6: detached
+[ 186.5882070] uhub3: detached
+[ 186.6215367] sysbeep0: detached
+[ 186.6579909] midi0: detached
+[ 186.6893401] wd0: detached
+[ 186.7193610] uhub0: detached
+[ 186.7558969] iic0: detached
+[ 186.7794034] pci1: detached
+[ 186.8194313] usb0: detached
+[ 186.8494533] atabus0: detached
+[ 186.8881741] ichsmb0: detached
+[ 186.9235868] ppb0: detached
+[ 186.9558742] ahcisata0: detached
+[ 186.9933699] pchb0: detached
+[ 187.0266995] attimer1: detached
+[ 187.0631538] dk2 at sd0 (EFI system) deleted
+[ 187.1131484] dk2: detached
+[ 187.1443948] dk1 at ld0 (primary) deleted
+[ 187.1912646] dk1: detached
+[ 187.2225112] dk0 at ld0 (boot) deleted
+[ 187.2662560] dk0: detached
+[ 187.3197839] dk3 at sd0 (88433fbf-13a9-4373-8940-4ef32debd8f1) deleted
+[ 187.3969582] sd0: detached
+[ 187.4282045] scsibus0: detached
+[ 187.4798954] ACPI Error: Hardware did not change modes (20190405/hwacpi-160)
+[ 187.4798954] ACPI Error: Could not exit ACPI mode to legacy mode (20190405/evxfevnt-162)
+
+[ 187.4798954] The operating system has halted.
+[ 187.4798954] Please press any key to reboot.
+
