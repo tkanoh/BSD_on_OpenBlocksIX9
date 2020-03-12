@@ -1,0 +1,294 @@
+
+ix9[1]# dmesg
+[     1.000000] Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+[     1.000000]     2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+[     1.000000]     2018, 2019, 2020 The NetBSD Foundation, Inc.  All rights reserved.
+[     1.000000] Copyright (c) 1982, 1986, 1989, 1991, 1993
+[     1.000000]     The Regents of the University of California.  All rights reserved.
+
+[     1.000000] NetBSD 9.0 (GENERIC) #0: Fri Feb 14 00:06:28 UTC 2020
+[     1.000000] 	mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/amd64/compile/GENERIC
+[     1.000000] total memory = 8081 MB
+[     1.000000] avail memory = 7823 MB
+[     1.000000] cpu_rng: RDRAND
+[     1.000000] rnd: seeded with 256 bits
+[     1.000000] timecounter: Timecounters tick every 10.000 msec
+[     1.000000] Kernelized RAIDframe activated
+[     1.000000] running cgd selftest aes-xts-256 aes-xts-512 done
+[     1.000000] timecounter: Timecounter "i8254" frequency 1193182 Hz quality 100
+[     1.000003] efi: systbl at pa 79987f18
+[     1.000003] Default string Default string (Default string)
+[     1.000003] mainbus0 (root)
+[     1.000003] ACPI: RSDP 0x000000007964B000 000024 (v02 ALASKA)
+[     1.000003] ACPI: XSDT 0x000000007964B088 00008C (v01 ALASKA A M I    01072009 AMI  00010013)
+[     1.000003] ACPI: FACP 0x00000000796562A0 00010C (v05 ALASKA A M I    01072009 AMI  00010013)
+[     1.000003] ACPI: DSDT 0x000000007964B1A8 00B0F1 (v02 ALASKA A M I    01072009 INTL 20120913)
+[     1.000003] ACPI: FACS 0x00000000796F7F80 000040
+[     1.000003] ACPI: APIC 0x00000000796563B0 000084 (v03 ALASKA A M I    01072009 AMI  00010013)
+[     1.000003] ACPI: FPDT 0x0000000079656438 000044 (v01 ALASKA A M I    01072009 AMI  00010013)
+[     1.000003] ACPI: FIDT 0x0000000079656480 00009C (v01 ALASKA A M I    01072009 AMI  00010013)
+[     1.000003] ACPI: LPIT 0x0000000079656520 000104 (v01 ALASKA A M I    00000003 VLV2 0100000D)
+[     1.000003] ACPI: MCFG 0x0000000079656628 00003C (v01 ALASKA A M I    01072009 MSFT 00000097)
+[     1.000003] ACPI: HPET 0x0000000079656668 000038 (v01 ALASKA A M I    01072009 AMI. 00000005)
+[     1.000003] ACPI: SSDT 0x00000000796566A0 000763 (v01 PmRef  CpuPm    00003000 INTL 20061109)
+[     1.000003] ACPI: SSDT 0x0000000079656E08 000290 (v01 PmRef  Cpu0Tst  00003000 INTL 20061109)
+[     1.000003] ACPI: SSDT 0x0000000079657098 00017A (v01 PmRef  ApTst    00003000 INTL 20061109)
+[     1.000003] ACPI: UEFI 0x0000000079657218 000042 (v01 ALASKA A M I    00000000      00000000)
+[     1.000003] ACPI: CSRT 0x0000000079657260 00014C (v00 INTEL  EDK2     00000005 INTL 20120624)
+[     1.000003] ACPI: TPM2 0x00000000796573B0 000034 (v03        Tpm2Tabl 00000001 AMI  00000000)
+[     1.000003] ACPI: 4 ACPI AML tables successfully acquired and loaded
+[     1.000003] ioapic0 at mainbus0 apid 1: pa 0xfec00000, version 0x20, 87 pins
+[     1.000003] cpu0 at mainbus0 apid 0
+[     1.000003] cpu0: Intel(R) Atom(TM) CPU  E3845  @ 1.91GHz, id 0x30679
+[     1.000003] cpu0: package 0, core 0, smt 0
+[     1.000003] cpu1 at mainbus0 apid 2
+[     1.000003] cpu1: Intel(R) Atom(TM) CPU  E3845  @ 1.91GHz, id 0x30679
+[     1.000003] cpu1: package 0, core 1, smt 0
+[     1.000003] cpu2 at mainbus0 apid 4
+[     1.000003] cpu2: Intel(R) Atom(TM) CPU  E3845  @ 1.91GHz, id 0x30679
+[     1.000003] cpu2: package 0, core 2, smt 0
+[     1.000003] cpu3 at mainbus0 apid 6
+[     1.000003] cpu3: Intel(R) Atom(TM) CPU  E3845  @ 1.91GHz, id 0x30679
+[     1.000003] cpu3: package 0, core 3, smt 0
+[     1.000003] acpi0 at mainbus0: Intel ACPICA 20190405
+[     1.000003] acpi0: X/RSDT: OemId <ALASKA,  A M I ,01072009>, AslId <AMI ,00010013>
+[     1.000003] acpi0: MCFG: segment 0, bus 0-255, address 0x00000000e0000000
+[     1.000003] ACPI: Dynamic OEM Table Load:
+[     1.000003] ACPI: SSDT 0xFFFF978074D5F008 00037A (v01 PmRef  Cpu0Ist  00003000 INTL 20061109)
+[     1.000003] ACPI: Dynamic OEM Table Load:
+[     1.000003] ACPI: SSDT 0xFFFF978074D90008 000433 (v01 PmRef  Cpu0Cst  00003001 INTL 20061109)
+[     1.000003] ACPI: Dynamic OEM Table Load:
+[     1.000003] ACPI: SSDT 0xFFFF977F0578A048 00015F (v01 PmRef  ApIst    00003000 INTL 20061109)
+[     1.000003] ACPI: Dynamic OEM Table Load:
+[     1.000003] ACPI: SSDT 0xFFFF977F056EAC38 00008D (v01 PmRef  ApCst    00003000 INTL 20061109)
+[     1.000003] acpi0: SCI interrupting at int 9
+[     1.000003] acpi0: fixed power button present
+[     1.000003] timecounter: Timecounter "ACPI-Safe" frequency 3579545 Hz quality 900
+[     1.044332] hpet0 at acpi0: high precision event timer (mem 0xfed00000-0xfed00400)
+[     1.044332] timecounter: Timecounter "hpet0" frequency 14318180 Hz quality 2000
+[     1.133057] acpiec0 at acpi0 (H_EC, PNP0C09-1)acpiec0: autoconfiguration error: unable to evaluate _GPE: AE_NOT_FOUND
+[     1.133057] acpivga0 at acpi0 (GFX0): ACPI Display Adapter
+[     1.133057] acpiout0 at acpivga0 (DD01, 0x0100): ACPI Display Output Device
+[     1.133057] acpiout1 at acpivga0 (DD02, 0x0002): ACPI Display Output Device
+[     1.133057] acpiout2 at acpivga0 (DD03, 0x0200): ACPI Display Output Device
+[     1.133057] acpiout3 at acpivga0 (DD04, 0x0004): ACPI Display Output Device
+[     1.133057] acpiout4 at acpivga0 (DD05, 0x0005): ACPI Display Output Device
+[     1.133057] acpiout5 at acpivga0 (DD06, 0x0006): ACPI Display Output Device
+[     1.133057] acpiout6 at acpivga0 (DD07, 0x0007): ACPI Display Output Device
+[     1.133057] acpiout7 at acpivga0 (DD08, 0x0008): ACPI Display Output Device
+[     1.133057] acpiout8 at acpivga0 (DD1F, 0x0400): ACPI Display Output Device
+[     1.133057] acpiout8: brightness levels: [0-100]
+[     1.133057] acpiout9 at acpivga0 (ISP0, 0x0f38): ACPI Display Output Device
+[     1.133057] acpivga0: autoconfiguration error: unknown output device acpiout0
+[     1.133057] acpivga0: autoconfiguration error: unknown output device acpiout1
+[     1.133057] acpivga0: autoconfiguration error: unknown output device acpiout2
+[     1.133057] acpivga0: autoconfiguration error: unknown output device acpiout3
+[     1.133057] acpivga0: autoconfiguration error: unknown output device acpiout4
+[     1.133057] acpivga0: autoconfiguration error: unknown output device acpiout5
+[     1.133057] acpivga0: autoconfiguration error: unknown output device acpiout6
+[     1.133057] acpivga0: autoconfiguration error: unknown output device acpiout7
+[     1.133057] acpivga0: connected output devices:
+[     1.133057] acpivga0:   0x0400 (acpiout8): Unknown Output Device, head 0
+[     1.133057] acpivga0:   0x0f38 (acpiout9): Unknown Output Device, head 0, non vga
+[     1.133057] FWHD (INT0800) at acpi0 not configured
+[     1.133057] LDRC (PNP0C02) at acpi0 not configured
+[     1.133057] attimer1 at acpi0 (TIMR, PNP0100): io 0x40-0x43,0x50-0x53 irq 0
+[     1.133057] SIO1 (PNP0C02) at acpi0 not configured
+[     1.133057] UAR1 (PNP0501) at acpi0 not configured
+[     1.133057] PDRC (PNP0C02) at acpi0 not configured
+[     1.133057] ADMA (DMA0F28) at acpi0 not configured
+[     1.133057] acpibut0 at acpi0 (SLPB, PNP0C0E): ACPI Sleep Button
+[     1.133057] GPO0 (INT33FC) at acpi0 not configured
+[     1.133057] GPO1 (INT33FC) at acpi0 not configured
+[     1.133057] GPO2 (INT33FC) at acpi0 not configured
+[     1.133057] sdhc0 at acpi0 (SDHB, INT33BB-2): mem 0x90a36000-0x90a36fff irq 46
+[     1.133057] sdhc0: SDHC 3.0, rev 181, SDMA, 100000 kHz, embedded slot, HS DDR50 1.8V 3.0V 3.3V, re-tuning mode 1, 2048 byte blocks
+[     1.133057] sdmmc0 at sdhc0 slot 0
+[     1.133057] GDM1 (INTL9C60) at acpi0 not configured
+[     1.133057] GDM2 (INTL9C60) at acpi0 not configured
+[     1.133057] URT1 (80860F0A) at acpi0 not configured
+[     1.133057] URT2 (80860F0A) at acpi0 not configured
+[     1.133057] SPI1 (80860F0E) at acpi0 not configured
+[     1.133057] I2C1 (80860F41) at acpi0 not configured
+[     1.133057] I2C2 (80860F41) at acpi0 not configured
+[     1.133057] I2C3 (80860F41) at acpi0 not configured
+[     1.133057] I2C4 (80860F41) at acpi0 not configured
+[     1.133057] I2C5 (80860F41) at acpi0 not configured
+[     1.133057] I2C6 (80860F41) at acpi0 not configured
+[     1.133057] I2C7 (80860F41) at acpi0 not configured
+[     1.133057] MBID (INT33BD) at acpi0 not configured
+[     1.133057] TPM (MSFT0101) at acpi0 not configured
+[     1.133057] ACPI: Enabled 5 GPEs in block 00 to 3F
+[     1.133057] pci0 at mainbus0 bus 0: configuration mode 1
+[     1.133057] pci0: i/o space, memory space enabled, rd/line, rd/mult, wr/inv ok
+[     1.133057] pchb0 at pci0 dev 0 function 0: vendor 8086 product 0f00 (rev. 0x11)
+[     1.133057] i915drmkms0 at pci0 dev 2 function 0: vendor 8086 product 0f31 (rev. 0x11)
+[     1.133057] ahcisata0 at pci0 dev 19 function 0: vendor 8086 product 0f23 (rev. 0x11)
+[     1.133057] ahcisata0: 64-bit DMA
+[     1.133057] ahcisata0: AHCI revision 1.30, 2 ports, 32 slots, CAP 0xc720ff01<PSC,SSC,PMD,ISS=0x2=Gen2,SCLO,SAL,SALP,SNCQ,S64A>
+[     1.133057] ahcisata0: interrupting at msi0 vec 0
+[     1.133057] atabus0 at ahcisata0 channel 0
+[     1.133057] xhci0 at pci0 dev 20 function 0: vendor 8086 product 0f35 (rev. 0x11)
+[     1.133057] xhci0: interrupting at msi1 vec 0
+[     1.133057] xhci0: xHCI version 1.0
+[     1.133057] usb0 at xhci0: USB revision 3.0
+[     1.133057] usb1 at xhci0: USB revision 2.0
+[     1.133057] vendor 8086 product 0f18 (miscellaneous crypto, revision 0x11) at pci0 dev 26 function 0 not configured
+[     1.133057] hdaudio0 at pci0 dev 27 function 0: HD Audio Controller
+[     1.133057] hdaudio0: interrupting at msi2 vec 0
+[     1.133057] hdafg0 at hdaudio0: vendor 8086 product 2882
+[     1.133057] hdafg0: DP00 8ch: Digital Out [Jack]
+[     1.133057] hdafg0: 8ch/0ch 48000Hz PCM16*
+[     1.133057] ppb0 at pci0 dev 28 function 0: vendor 8086 product 0f48 (rev. 0x11)
+[     1.133057] ppb0: PCI Express capability version 2 <Root Port of PCI-E Root Complex> x1 @ 5.0GT/s
+[     1.133057] pci1 at ppb0 bus 1
+[     1.133057] pci1: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.133057] ppb1 at pci0 dev 28 function 1: vendor 8086 product 0f4a (rev. 0x11)
+[     1.133057] ppb1: PCI Express capability version 2 <Root Port of PCI-E Root Complex> x1 @ 5.0GT/s
+[     1.133057] ppb1: link is x1 @ 2.5GT/s
+[     1.133057] pci2 at ppb1 bus 2
+[     1.133057] pci2: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.133057] re0 at pci2 dev 0 function 0: RealTek 8168/8111 PCIe Gigabit Ethernet (rev. 0x19)
+[     1.133057] re0: interrupting at msix3 vec 0
+[     1.133057] re0: Ethernet address 00:0a:85:12:00:6c
+[     1.133057] re0: using 256 tx descriptors
+[     1.133057] rgephy0 at re0 phy 7: RTL8211E 1000BASE-T media interface
+[     1.133057] rgephy0: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT-FDX, auto
+[     1.133057] ppb2 at pci0 dev 28 function 2: vendor 8086 product 0f4c (rev. 0x11)
+[     1.133057] ppb2: PCI Express capability version 2 <Root Port of PCI-E Root Complex> x1 @ 5.0GT/s
+[     1.133057] pci3 at ppb2 bus 3
+[     1.133057] pci3: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.133057] ppb3 at pci3 dev 0 function 0: vendor 12d8 product 2404 (rev. 0x05)
+[     1.133057] ppb3: PCI Express capability version 2 <Upstream Port of PCI-E Switch>
+[     1.133057] pci4 at ppb3 bus 4
+[     1.133057] pci4: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.133057] ppb4 at pci4 dev 1 function 0: vendor 12d8 product 2404 (rev. 0x05)
+[     1.133057] ppb4: PCI Express capability version 2 <Downstream Port of PCI-E Switch> x1 @ 2.5GT/s
+[     1.133057] pci5 at ppb4 bus 5
+[     1.133057] pci5: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.133057] re1 at pci5 dev 0 function 0: RealTek 8168/8111 PCIe Gigabit Ethernet (rev. 0x19)
+[     1.133057] re1: interrupting at msix4 vec 0
+[     1.133057] re1: Ethernet address 00:0a:85:12:00:6e
+[     1.133057] re1: using 256 tx descriptors
+[     1.133057] rgephy1 at re1 phy 7: RTL8211E 1000BASE-T media interface
+[     1.133057] rgephy1: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT-FDX, auto
+[     1.133057] ppb5 at pci4 dev 2 function 0: vendor 12d8 product 2404 (rev. 0x05)
+[     1.133057] ppb5: PCI Express capability version 2 <Downstream Port of PCI-E Switch> x1 @ 2.5GT/s
+[     1.133057] pci6 at ppb5 bus 6
+[     1.133057] pci6: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.133057] re2 at pci6 dev 0 function 0: RealTek 8168/8111 PCIe Gigabit Ethernet (rev. 0x19)
+[     1.133057] re2: interrupting at msix5 vec 0
+[     1.133057] re2: Ethernet address 00:0a:85:12:00:6f
+[     1.133057] re2: using 256 tx descriptors
+[     1.133057] rgephy2 at re2 phy 7: RTL8211E 1000BASE-T media interface
+[     1.133057] rgephy2: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT-FDX, auto
+[     1.133057] ppb6 at pci4 dev 3 function 0: vendor 12d8 product 2404 (rev. 0x05)
+[     1.133057] ppb6: PCI Express capability version 2 <Downstream Port of PCI-E Switch> x1 @ 5.0GT/s
+[     1.133057] pci7 at ppb6 bus 7
+[     1.133057] pci7: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.133057] ppb7 at pci0 dev 28 function 3: vendor 8086 product 0f4e (rev. 0x11)
+[     1.133057] ppb7: PCI Express capability version 2 <Root Port of PCI-E Root Complex> x1 @ 5.0GT/s
+[     1.133057] ppb7: link is x1 @ 2.5GT/s
+[     1.133057] pci8 at ppb7 bus 8
+[     1.133057] pci8: i/o space, memory space enabled, rd/line, wr/inv ok
+[     1.133057] re3 at pci8 dev 0 function 0: RealTek 8168/8111 PCIe Gigabit Ethernet (rev. 0x19)
+[     1.133057] re3: interrupting at msix6 vec 0
+[     1.133057] re3: Ethernet address 00:0a:85:12:00:6d
+[     1.133057] re3: using 256 tx descriptors
+[     1.133057] rgephy3 at re3 phy 7: RTL8211E 1000BASE-T media interface
+[     1.133057] rgephy3: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, 1000baseT-FDX, auto
+[     1.133057] pcib0 at pci0 dev 31 function 0: vendor 8086 product 0f1c (rev. 0x11)
+[     1.133057] ichsmb0 at pci0 dev 31 function 3: vendor 8086 product 0f12 (rev. 0x11)
+[     1.133057] ichsmb0: interrupting at ioapic0 pin 18
+[     1.133057] iic0 at ichsmb0: I2C bus
+[     1.133057] isa0 at pcib0
+[     1.133057] tpm0 at isa0 iomem 0xfed40000-0xfed44fff irq 7tpm0: device 0x001a15d1 rev 0x10
+[     1.133057] com0 at isa0 port 0x3f8-0x3ff irq 4: ns16550a, working fifo
+[     1.133057] com0: console
+[     1.133057] pcppi0 at isa0 port 0x61
+[     1.133057] spkr0 at pcppi0: PC Speaker
+[     1.133057] wsbell at spkr0 not configured
+[     1.133057] midi0 at pcppi0: PC speaker
+[     1.133057] sysbeep0 at pcppi0
+[     1.133057] attimer1: attached to pcppi0
+[     1.133057] acpicpu0 at cpu0: ACPI CPU
+[     1.133057] acpicpu0: C1: FFH, lat   1 us, pow  1000 mW
+[     1.133057] acpicpu0: C2: FFH, lat 500 us, pow    10 mW
+[     1.133057] acpicpu0: C3: FFH, lat 1500 us, pow    10 mW
+[     1.133057] acpicpu0: P0: FFH, lat  10 us, pow  2000 mW, 1909 MHz
+[     1.133057] acpicpu0: P1: FFH, lat  10 us, pow  1835 mW, 1743 MHz
+[     1.133057] acpicpu0: P2: FFH, lat  10 us, pow  1670 mW, 1577 MHz
+[     1.133057] acpicpu0: P3: FFH, lat  10 us, pow  1505 mW, 1411 MHz
+[     1.133057] acpicpu0: P4: FFH, lat  10 us, pow  1341 mW, 1245 MHz
+[     1.133057] acpicpu0: P5: FFH, lat  10 us, pow  1176 mW, 1079 MHz
+[     1.133057] acpicpu0: P6: FFH, lat  10 us, pow  1011 mW,  913 MHz
+[     1.133057] acpicpu0: P7: FFH, lat  10 us, pow   847 mW,  747 MHz
+[     1.133057] acpicpu0: P8: FFH, lat  10 us, pow   600 mW,  498 MHz
+[     1.133057] acpicpu0: T0: FFH, lat   1 us, pow   600 mW, 100 %
+[     1.133057] acpicpu0: T1: FFH, lat   1 us, pow   525 mW,  88 %
+[     1.133057] acpicpu0: T2: FFH, lat   1 us, pow   450 mW,  75 %
+[     1.133057] acpicpu0: T3: FFH, lat   1 us, pow   375 mW,  63 %
+[     1.133057] acpicpu0: T4: FFH, lat   1 us, pow   300 mW,  50 %
+[     1.133057] acpicpu0: T5: FFH, lat   1 us, pow   225 mW,  38 %
+[     1.133057] acpicpu0: T6: FFH, lat   1 us, pow   150 mW,  25 %
+[     1.133057] acpicpu0: T7: FFH, lat   1 us, pow    75 mW,  13 %
+[     1.133057] coretemp0 at cpu0: thermal sensor, 1 C resolution, Tjmax=110
+[     1.133057] acpicpu1 at cpu1: ACPI CPU
+[     1.133057] coretemp1 at cpu1: thermal sensor, 1 C resolution, Tjmax=110
+[     1.133057] acpicpu2 at cpu2: ACPI CPU
+[     1.133057] coretemp2 at cpu2: thermal sensor, 1 C resolution, Tjmax=110
+[     1.133057] acpicpu3 at cpu3: ACPI CPU
+[     1.133057] coretemp3 at cpu3: thermal sensor, 1 C resolution, Tjmax=110
+[     1.133057] timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+[     2.010685] timecounter: Timecounter "TSC" frequency 1916875200 Hz quality 3000
+[     2.010953] uhub0 at usb0: NetBSD (0000) xHCI root hub (0000), class 9/0, rev 3.00/1.00, addr 0
+[     2.113425] uhub0: 1 port with 1 removable, self powered
+[     2.113425] uhub1 at usb1: NetBSD (0000) xHCI root hub (0000), class 9/0, rev 2.00/1.00, addr 0
+[     2.210816] uhub1: 6 ports with 6 removable, self powered
+[     2.320890] sdhc0: cmd timeout error
+[     2.378832] ahcisata0 port 0: device present, speed: 3.0Gb/s
+[     2.470991] sdmmc0: sdmmc_mem_enable failed with error 60
+[     2.541038] sdmmc0: autoconfiguration error: couldn't enable card: 60
+[     2.711151] sdhc0: cmd timeout error
+[     2.771192] IPsec: Initialized Security Association Processing.
+[     2.791206] sdmmc0: sdmmc_mem_enable failed with error 60
+[     2.871259] sdmmc0: autoconfiguration error: couldn't enable card: 60
+[     3.861924] uhub2 at uhub1 port 1: Microchip Tech (0x424) USB2744 (0x2744), class 9/0, rev 2.10/2.05, addr 1
+[     3.971998] uhub2: multiple transaction translators
+[     4.032037] wd0 at atabus0 drive 0
+[     4.072064] wd0: <UDinfo M2S 128GB>
+[     4.112090] wd0: drive supports 16-sector PIO transfers, LBA48 addressing
+[     4.112090] wd0: 119 GB, 248085 cyl, 16 head, 63 sec, 512 bytes/sect x 250069680 sectors
+[     4.212158] uhub2: 5 ports with 4 removable, self powered
+[     4.212158] wd0: GPT GUID: 56f00d67-b00c-4a3f-88e5-6eb872927062
+[     4.212158] dk0 at wd0: "bb5b8576-7fb1-417c-82bb-0182133afd26", 262144 blocks at 64, type: msdos
+[     4.322231] dk1 at wd0: "f12cc594-5cfa-4b13-b964-d239579e092a", 233255533 blocks at 262272, type: ffs
+[     4.432305] dk2 at wd0: "e6209949-ca12-4092-9421-838d0f832f35", 16551823 blocks at 233517824, type: swap
+[     4.542379] wd0: drive supports PIO mode 4, DMA mode 2, Ultra-DMA mode 6 (Ultra/133), WRITE DMA FUA, NCQ (32 tags)
+[     4.542379] wd0(ahcisata0:0:0): using PIO mode 4, DMA mode 2, Ultra-DMA mode 6 (Ultra/133) (using DMA), NCQ (31 tags)
+[     4.542379] uhub3 at uhub0 port 1: Microchip Tech (0x424) USB5744 (0x5744), class 9/0, rev 3.10/2.05, addr 2
+[     4.664443] uhub3: 4 ports with 4 removable, self powered
+[     5.442985] ugen0 at uhub2 port 5
+[     5.483011] ugen0: Microchip Tech (0x424) Hub Controller (0x2740), rev 2.01/2.00, addr 3
+[     5.583078] WARNING: 11 errors while detecting hardware; check system log.
+[     5.671652] boot device: wd0
+[     5.706022] root on dk1 dumps on dk2
+[     5.746643] root file system type: ffs
+[     5.793513] kern.module.path=/stand/amd64/9.0/modules
+[     5.853923] kern info: [drm] Memory usable by graphics device = 2048M
+[     5.932194] kern info: [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[     6.013365] kern info: [drm] Driver supports precise vblank timestamp query.
+[     6.103425] kern info: [drm] failed to find VBIOS tables
+[     6.193486] i915drmkms0: interrupting at ioapic0 pin 16 (i915drmkms0)
+[     6.443654] kern info: [drm] GMBUS [i915 gmbus vga] timed out, falling back to bit banging on pin 2
+[     6.703829] i915drmkms0: info: No connectors reported connected with modes
+[     6.783882] kern info: [drm] Cannot find any crtc or sizes - going 1024x768
+[     6.863936] intelfb0 at i915drmkms0
+[     6.903962] intelfb0: framebuffer at 0xffff9e00adf94000, size 1024x768, depth 32, stride 4096
+[     7.244190] wsdisplay0 at intelfb0 kbdmux 1
+[     7.294224] wsmux1: connecting to wsdisplay0
+[    16.000062] wsdisplay0: screen 1 added (default, vt100 emulation)
+[    16.000062] wsdisplay0: screen 2 added (default, vt100 emulation)
+[    16.010068] wsdisplay0: screen 3 added (default, vt100 emulation)
+[    16.010068] wsdisplay0: screen 4 added (default, vt100 emulation)
+ix9[2]# 
